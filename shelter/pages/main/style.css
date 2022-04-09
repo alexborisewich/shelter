@@ -605,3 +605,83 @@ h6 {
   letter-spacing: 0.05em;
   color: #545454;
 }
+
+/* ===================== DONATION ======================== */
+
+.donation {
+  background: #f6f6f6;
+}
+
+.donation__container {
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 143px;
+  padding-right: 142px;
+}
+
+/* .donation__image {
+} */
+
+/* .donation__dog {
+} */
+
+.donation__column {
+  display: flex;
+  flex-direction: column;
+  width: 380px;
+  height: 282px;
+}
+
+.donation__column > *:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.donation__title {
+  width: 300px;
+}
+
+.donation__subtitle {
+  width: 307px;
+  height: 17px;
+  line-height: 110%;
+  letter-spacing: 0.049em;
+}
+
+.donation__button {
+  justify-content: space-between;
+  width: 349px;
+  height: 43px;
+  border-radius: 9px;
+  padding: 10px 15px;
+  font-size: 20px;
+  line-height: 115%;
+  letter-spacing: 0.06em;
+  color: #545454;
+}
+
+.donation__button:hover {
+  background: #fddcc4;
+}
+
+.icon-credit-card {
+  display: inline-block;
+  width: 30px;
+  height: 23px;
+  text-align: center;
+  font-size: 23px;
+  color: #292929;
+}
+
+.donation__card-number {
+  display: inline-block;
+  height: 100%;
+}
+
+.donation__info {
+  font-family: Arial;
+  font-style: italic;
+  font-size: 12px;
+  line-height: 150%;
+  letter-spacing: -0.011em;
+  color: #b2b2b2;
+}
