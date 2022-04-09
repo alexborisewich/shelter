@@ -429,3 +429,135 @@ h6 {
   letter-spacing: 0.01em;
   color: #4c4c4c;
 }
+
+/* ===================== PETS ======================== */
+
+.pets {
+  background: #f6f6f6;
+}
+
+.pets__container {
+  flex-direction: column;
+  align-items: center;
+}
+
+.pets__container > *:not(:last-child) {
+  margin-bottom: 60px;
+}
+
+.pets__title {
+  width: 400px;
+  text-align: center;
+}
+
+.pets__slider-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.pets__slider-wrapper {
+  width: 100%;
+}
+
+.pets__slider-items {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.pets__slider-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 9px;
+  background: #fafafa;
+  transition: 0.3s;
+}
+
+.pets__slider-item:hover {
+  cursor: pointer;
+  background: #fff;
+  box-shadow: 0 2px 35px 14px rgba(13, 13, 13, 0.04);
+}
+
+.pets__slider-item > * {
+  margin-bottom: 30px;
+}
+
+/* .pets__image {
+} */
+
+.pets__name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 1px;
+  width: 83px;
+  height: 23px;
+  font-size: 20px;
+  line-height: 100%;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #545454;
+}
+
+.pets__item-button {
+  width: 187px;
+  border: 2px solid #f1cdb3;
+  background: none;
+}
+
+.pets__item-button:hover {
+  background: #fddcc4;
+  border: 2px solid #fddcc4;
+}
+
+.pets__item-button:active {
+  background: none;
+  border: 2px solid #f1cdb3;
+}
+
+.pets__slider-control {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 52px;
+  height: 52px;
+  padding: 23px 19px;
+  border: 2px solid #f1cdb3;
+  border-radius: 100%;
+  background: transparent;
+  font-size: 6px;
+  color: #292929;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.pets__slider-control:hover {
+  background: #fddcc4;
+  border: 2px solid #fddcc4;
+}
+
+.pets__slider-control:disabled {
+  background: transparent;
+  border: 2px solid #cdcdcd;
+  color: #cdcdcd;
+}
+
+.icon-arrow-left {
+  margin-right: 8px;
+}
+
+.icon-arrow-right {
+  margin-left: 8px;
+}
+
+.pets__button {
+  width: 261px;
+}
+
+.pets__button:hover {
+  background: #fddcc4;
+}
