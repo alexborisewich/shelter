@@ -388,3 +388,44 @@ h6 {
   max-width: 100%;
   height: auto;
 }
+
+/* ===================== ABOUT ======================== */
+
+.about {
+  background: #ffffff;
+}
+
+.about__container {
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 120px;
+}
+
+/* .about__image {
+} */
+
+/* .about__pets {
+} */
+
+.about__column {
+  display: flex;
+  flex-direction: column;
+  width: 430px;
+  height: 380px;
+}
+
+.about__column > *:not(:last-child) {
+  margin-bottom: 25px;
+}
+
+.about__title {
+  width: 370px;
+}
+
+.about__text {
+  font-family: Arial;
+  line-height: 160%;
+  letter-spacing: 0.01em;
+  color: #4c4c4c;
+}
