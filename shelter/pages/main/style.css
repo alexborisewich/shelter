@@ -685,3 +685,87 @@ h6 {
   letter-spacing: -0.011em;
   color: #b2b2b2;
 }
+
+/* ===================== FOOTER ======================== */
+
+.footer {
+  background: url(../../assets/images/noise_transparent.png) 0% 0%/125px repeat,
+    radial-gradient(circle farthest-side at 0 0, #5b483a 0%, #262425 100%),
+    #211f20;
+}
+
+.footer__container {
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 40px;
+  padding-bottom: 0;
+}
+
+.footer__contacts {
+  width: 278px;
+  height: 234px;
+}
+
+.footer-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 16px;
+}
+
+.footer__contacts-title {
+  color: #fff;
+  letter-spacing: 0.059em;
+}
+
+.footer-link {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0.05em;
+  color: #f1cdb3;
+}
+
+.footer__icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 20px;
+  font-size: 32px;
+  color: #f1cdb3;
+}
+
+.footer__text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__email {
+  width: 251px;
+}
+
+.footer__phone {
+  width: 239px;
+}
+
+.footer__locations {
+  width: 302px;
+  height: 234px;
+}
+
+.footer__locations-title {
+  color: #fff;
+  letter-spacing: 0.065em;
+}
+
+.footer__address {
+  width: 300px;
+}
+
+/* .footer__image {
+} */
+
+/* .footer__puppy {
+} */
