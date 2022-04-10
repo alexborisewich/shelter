@@ -300,3 +300,155 @@ h6 {
   border-bottom: 3px solid transparent;
   transition: 0.1s;
 }
+
+.main {
+  flex: 1 1 auto;
+}
+
+.pets {
+  background: #f6f6f6;
+}
+
+.pets__container {
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+}
+
+.pets__container > *:not(:last-child) {
+  margin-bottom: 45px;
+}
+
+.pets__title {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.title {
+  height: 90px;
+  line-height: 130%;
+  font-size: 35px;
+  line-height: 130%;
+  letter-spacing: 0.06em;
+  color: #545454;
+}
+
+.pets__cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px 40px;
+  padding: 15px 0;
+}
+
+.pets__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 9px;
+  background: #fafafa;
+  transition: 0.3s;
+}
+
+.pets__card:hover {
+  cursor: pointer;
+  background: #fff;
+  box-shadow: 0 2px 35px 14px rgba(13, 13, 13, 0.04);
+}
+
+.pets__card > * {
+  margin-bottom: 30px;
+}
+
+/* .pets__image {
+} */
+
+.pets__name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 23px;
+  font-size: 20px;
+  line-height: 100%;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #545454;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 52px;
+  border-radius: 100px;
+  background: #f1cdb3;
+  font-size: 17px;
+  line-height: 130%;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #292929;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.pets__card-button {
+  width: 187px;
+  border: 2px solid #f1cdb3;
+  background: none;
+}
+
+.pets__card-button:hover {
+  background: #fddcc4;
+  border: 2px solid #fddcc4;
+}
+
+.pets__card-button:active {
+  background: none;
+  border: 2px solid #f1cdb3;
+}
+
+.pets__buttons-container {
+  display: flex;
+  gap: 20px;
+  margin: 0 auto;
+}
+
+.pets__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 52px;
+  height: 52px;
+  border: 2px solid #f1cdb3;
+  border-radius: 100%;
+  background: transparent;
+  font-size: 20px;
+  line-height: 115%;
+  letter-spacing: 0.06em;
+  color: #292929;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.active {
+  background: #f1cdb3;
+  cursor: default;
+}
+
+.pets__button:hover:not(.active) {
+  background: #fddcc4;
+  border: 2px solid #fddcc4;
+}
+
+.pets__button:hover:active {
+  background: #f1cdb3;
+  border: 2px solid #f1cdb3;
+}
+
+.pets__button:disabled,
+.pets__button:hover:disabled {
+  background: transparent;
+  border: 2px solid #cdcdcd;
+  color: #cdcdcd;
+  cursor: default;
+}
