@@ -2,4 +2,8 @@
 
 Private repository for @alexborisewich
 
-docs: add сv link to readme
+https://alexborisewich.github.io/rsschool-cv/cv
+
+Completed tasks:
+
+1. Shelter Desktop:
