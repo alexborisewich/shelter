@@ -482,6 +482,11 @@ h6 {
   box-shadow: 0 2px 35px 14px rgba(13, 13, 13, 0.04);
 }
 
+.pets__slider-item:hover button {
+  background: #fddcc4;
+  border: 2px solid #fddcc4;
+}
+
 .pets__slider-item > * {
   margin-bottom: 30px;
 }
@@ -509,12 +514,7 @@ h6 {
   background: none;
 }
 
-.pets__item-button:hover {
-  background: #fddcc4;
-  border: 2px solid #fddcc4;
-}
-
-.pets__item-button:active {
+.pets__item-button:hover:active {
   background: none;
   border: 2px solid #f1cdb3;
 }
