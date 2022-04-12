@@ -356,6 +356,11 @@ h6 {
   box-shadow: 0 2px 35px 14px rgba(13, 13, 13, 0.04);
 }
 
+.pets__card:hover button {
+  background: #fddcc4;
+  border: 2px solid #fddcc4;
+}
+
 .pets__card > * {
   margin-bottom: 30px;
 }
@@ -397,12 +402,7 @@ h6 {
   background: none;
 }
 
-.pets__card-button:hover {
-  background: #fddcc4;
-  border: 2px solid #fddcc4;
-}
-
-.pets__card-button:active {
+.pets__card-button:hover:active {
   background: none;
   border: 2px solid #f1cdb3;
 }
