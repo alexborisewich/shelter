@@ -675,6 +675,7 @@ h6 {
 .donation__card-number {
   display: inline-block;
   height: 100%;
+  color: inherit;
 }
 
 .donation__info {
