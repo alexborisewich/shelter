@@ -237,7 +237,6 @@ h6 {
 } */
 
 .header__title {
-  width: 184px;
   height: 35px;
   font-size: 32px;
   line-height: 110%;
@@ -246,7 +245,6 @@ h6 {
 }
 
 .header__subtitle {
-  width: 179px;
   height: 15px;
   margin: 10px 0 0 4px;
   font-family: Arial;
@@ -638,7 +636,6 @@ h6 {
 }
 
 .donation__subtitle {
-  width: 307px;
   height: 17px;
   line-height: 110%;
   letter-spacing: 0.06em;
