@@ -241,7 +241,7 @@ h6 {
   height: 35px;
   font-size: 32px;
   line-height: 110%;
-  letter-spacing: 0.053em;
+  letter-spacing: 0.06em;
   color: #f1cdb3;
 }
 
@@ -252,7 +252,7 @@ h6 {
   font-family: Arial;
   font-size: 13px;
   line-height: 100%;
-  letter-spacing: 0.0933em;
+  letter-spacing: 0.1em;
   color: #fff;
 }
 
@@ -352,7 +352,6 @@ h6 {
 .not-only__text {
   font-family: Arial;
   line-height: 160%;
-  letter-spacing: 0.2px;
   color: #cdcdcd;
 }
 
@@ -425,7 +424,6 @@ h6 {
 .about__text {
   font-family: Arial;
   line-height: 160%;
-  letter-spacing: 0.01em;
   color: #4c4c4c;
 }
 
@@ -643,7 +641,7 @@ h6 {
   width: 307px;
   height: 17px;
   line-height: 110%;
-  letter-spacing: 0.049em;
+  letter-spacing: 0.06em;
 }
 
 .donation__button {
@@ -682,7 +680,6 @@ h6 {
   font-style: italic;
   font-size: 12px;
   line-height: 150%;
-  letter-spacing: -0.011em;
   color: #b2b2b2;
 }
 
@@ -757,7 +754,6 @@ h6 {
 
 .footer__locations-title {
   color: #fff;
-  letter-spacing: 0.065em;
 }
 
 .footer__address {
