@@ -55,7 +55,8 @@ function onMenuLinkOrBodyShadowClick(e) {
     bodyShadow.classList.remove("active");
     burgerBody.parentNode.prepend(headerLogo);
     headerLogo.classList.remove("burger__logo");
-    burgerButtonShadow.parentNode.classList.remove("hidden");
+    headerLogo.classList.remove("active");
+    burgerButton.parentNode.classList.remove("hidden");
     menuLinks[1].onclick = function (event) {
       event.preventDefault();
     };
