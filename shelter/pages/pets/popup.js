@@ -9,19 +9,29 @@ document.body.insertBefore(popup, script);
 function popupChange(indexOfPets) {
   popup.innerHTML = `<div class="popup__body">
     <div class="popup__image">
-      <img src="../../assets/images/pets-${pets[indexOfPets].name}.png" alt="${pets[indexOfPets].name}" />
+      <img src= "../../assets/images/pets-${pets[
+        indexOfPets
+      ].name.toLowerCase()}.png" alt="${pets[indexOfPets].name}" />
     </div>
     <div class="popup__content">
       <h3 class="popup__name">${pets[indexOfPets].name}</h3>
-      <h4 class="popup__type-breed">${pets[indexOfPets].type} - ${pets[indexOfPets].breed}</h4>
+      <h4 class="popup__type-breed">${pets[indexOfPets].type} - ${
+    pets[indexOfPets].breed
+  }</h4>
       <h5 class="popup__description">
       ${pets[indexOfPets].description}
       </h5>
       <ul class="popup__properties">
         <li class="popup__info"><span>Age:</span> ${pets[indexOfPets].age}</li>
-        <li class="popup__info"><span>Inoculations:</span> ${pets[indexOfPets].inoculations}</li>
-        <li class="popup__info"><span>Diseases:</span> ${pets[indexOfPets].diseases}</li>
-        <li class="popup__info"><span>Parasites:</span> ${pets[indexOfPets].parasites}</li>
+        <li class="popup__info"><span>Inoculations:</span> ${
+          pets[indexOfPets].inoculations
+        }</li>
+        <li class="popup__info"><span>Diseases:</span> ${
+          pets[indexOfPets].diseases
+        }</li>
+        <li class="popup__info"><span>Parasites:</span> ${
+          pets[indexOfPets].parasites
+        }</li>
       </ul>
     </div>
     <div class="popup__button">
