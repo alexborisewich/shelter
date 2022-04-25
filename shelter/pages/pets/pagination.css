@@ -1,0 +1,16 @@
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .pets__card:nth-last-child(-n + 2) {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .pets__card:nth-last-child(-n + 5) {
+    display: flex;
+  }
+}
+
+.pets__card {
+  transition: all 0.3s ease-out;
+  opacity: 1;
+}
