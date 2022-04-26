@@ -12,27 +12,6 @@ const petsCardContainer = document.getElementsByClassName(
   "pets__cards-container"
 );
 
-const getNoRepeatNumbers = function () {
-  let numbers = [];
-  for (let i = 0; i <= pets.length - 1; i++) {
-    numbers.push(i);
-  }
-  let noRepeatNumbers = [];
-  while (numbers.length > 0) {
-    noRepeatNumbers.push(
-      numbers.splice(Math.floor(Math.random() * numbers.length), 1)[0]
-    );
-  }
-  return noRepeatNumbers;
-};
-
-let noRepeatNumbersArr = [];
-for (let i = 0; i < 6; i++) {
-  noRepeatNumbersArr.push(getNoRepeatNumbers());
-}
-
-let order = noRepeatNumbersArr.flat();
-
 let pageCount = 1;
 
 const buttons = document.getElementsByClassName("pets__button");
@@ -65,6 +44,7 @@ lastPageButton.addEventListener("click", function () {
 });
 
 let display;
+
 if (
   window.matchMedia("(min-width: 768px)").matches &&
   window.matchMedia("(max-width: 1279px)").matches
@@ -75,7 +55,30 @@ if (
 } else {
   display = 8;
 }
-let lastPage = order.length / display;
+
+let lastPage = 48 / display;
+
+const getNoRepeatNumbers = function () {
+  let numbers = [];
+  for (let i = 0; i < pets.length; i++) {
+    numbers.push(i);
+  }
+  let noRepeatNumbers = [];
+  for (let i = 0; i < display; i++) {
+    noRepeatNumbers.push(
+      numbers.splice(Math.floor(Math.random() * numbers.length), 1)[0]
+    );
+  }
+  return noRepeatNumbers;
+};
+
+let noRepeatNumbersArr = [];
+for (let i = 0; i < lastPage; i++) {
+  noRepeatNumbersArr.push(getNoRepeatNumbers());
+}
+
+let order = noRepeatNumbersArr.flat();
+
 function showCards() {
   let currentPage = pageCount;
   let endPageCard = (order.length / lastPage) * currentPage;
