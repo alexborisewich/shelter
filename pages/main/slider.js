@@ -51,7 +51,7 @@ const nextSlides = function (position) {
     newCard.classList.add("pets__slider-item");
     newCard.setAttribute("data-target", `${pets[noRepeatNumbers[i]].name}`);
     newCard.innerHTML = `<div class="pets__image">
-  <img src = "../../assets/images/pets-${pets[
+  <img src = "assets/images/pets-${pets[
     noRepeatNumbers[i]
   ].name.toLowerCase()}.png" alt = ${pets[noRepeatNumbers[i]].name} />
 </div>

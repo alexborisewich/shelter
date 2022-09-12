@@ -9,7 +9,7 @@ document.body.insertBefore(popup, script);
 function popupChange(indexOfPets) {
   popup.innerHTML = `<div class="popup__body">
     <div class="popup__image">
-      <img src= "../../assets/images/pets-${pets[
+      <img src= "assets/images/pets-${pets[
         indexOfPets
       ].name.toLowerCase()}.png" alt="${pets[indexOfPets].name}" />
     </div>
