@@ -1,2 +1,3 @@
-# alexborisewich-JSFE2022Q1
-Private repository for @alexborisewich
+# shelter
+Task: https://github.com/rolling-scopes-school/tasks/blob/master/stage1/stream1/shelter/README.md
+
